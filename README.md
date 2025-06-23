@@ -177,3 +177,23 @@ For platform administrators to monitor activities and manage data.
 
   Description:
 - Admins can oversee users, properties, bookings, and flagged reviews or listings. This is crucial for maintaining the integrity and security of the platform.
+
+
+**API Security**
+
+1. _User Data_:
+- Protecting identity, contact information, and private activity.
+
+2. _Payments_:
+- Preventing fraud and securing sensitive financial details.
+
+4. _Bookings_:
+- Avoiding conflicts, theft, or abuse of property access.
+
+5. _Review & Listings_:
+- Preventing fake content or manipulation of ratings.
+
+6. _API & Server_:
+- Guarding against system downtime or data breach.
+
+  
