@@ -197,3 +197,15 @@ For platform administrators to monitor activities and manage data.
 - Guarding against system downtime or data breach.
 
   
+**CI/CD Pipeline**
+
+⚙️ _What Are CI/CD Pipelines?_
+
+- _CI/CD_ stands for _Continuous Integration_ and _Continuous Deployment/Delivery_.
+
+1. _Continuous Integration (CI)_:
+        Automatically tests and integrates code changes (like new features or bug fixes) into the main codebase. This ensures new commits don’t break the app.
+
+2. _Continuous Deployment (CD)_:
+        Automatically builds, tests, and deploys your app to a server or cloud platform whenever changes are merged.
+
