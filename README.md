@@ -126,3 +126,54 @@ Represents a payment made for a booking.
 
 - One payment is linked to one booking.
 - One booking can have one or more payment attempts (depending on business rules).
+
+
+**Feature Breakdown**
+
+1._User Management_:
+Handles registration, login, profile editing, and authentication.
+
+  Description:
+- This feature allows users to sign up as guests or hosts, log in securely, and manage their profile information. It supports authentication, session management, and access control for different roles (e.g., only hosts can list properties).
+
+2._Property Management_:
+Enables hosts to list, edit, and delete properties.
+
+  Description:
+- Hosts can create detailed property listings, including descriptions, photos, pricing, location, and availability. This feature makes it possible for guests to browse various accommodation options and filter based on preferences.
+
+3._Search and Filter_
+Allows users to search properties by location, price, date, and more.
+
+  Description:
+- Users can find suitable properties by entering their travel details and applying filters such as price range, number of guests, or amenities. This improves the user experience by narrowing down listings quickly.
+
+4._Booking System_:
+Lets guests make reservations and manage upcoming or past bookings.
+
+  Description:
+- Guests can select available dates and submit booking requests for properties. The system calculates total prices and ensures no date overlaps. Hosts may accept or auto-confirm bookings depending on the design.
+
+5._Review System_:
+Enables guests to leave reviews and ratings after their stay.
+
+  Description:
+- Guests can share feedback on properties they've stayed in, which helps future users make informed decisions. Reviews contribute to credibility and quality control on the platform.
+
+6._Payment Integration_:
+Handles secure transactions for bookings.
+
+  Description:
+- This feature enables users to pay for bookings using payment gateways (e.g., Stripe, PayPal). It tracks payment status and links payments to bookings, ensuring smooth financial flow between guests, the platform, and hosts.
+
+7._Messaging System_:
+Facilitates communication between hosts and guests.
+
+  Description:
+- A messaging feature allows users to ask questions or clarify details before booking. This improves trust, transparency, and user engagement.
+
+8._Admin Dashboard_:
+For platform administrators to monitor activities and manage data.
+
+  Description:
+- Admins can oversee users, properties, bookings, and flagged reviews or listings. This is crucial for maintaining the integrity and security of the platform.
